@@ -1,18 +1,22 @@
 # Integração de Dados: implantação, consultas e validação
 
 **Disciplina:** Banco de Dados (ENGS242N01)  
-**Trabalho:** individual  
-**Prazo:** dd/mm/aaaa
+**Trabalho:** em trio (equipe de 3 pessoas)  
+**Entrega e apresentação:** 26/11/2026
 
-## Aluno
+## Equipe
+
+**Nome do time:** ____________________
 
 | Nome | Matrícula | Usuário do GitHub |
 | --- | --- | --- |
 |  |  |  |
+|  |  |  |
+|  |  |  |
 
 ## O cenário
 
-Você foi contratado para implantar o banco de dados de uma rede de lojas. O cliente enviou:
+Sua equipe foi contratada para implantar o banco de dados de uma rede de lojas. O cliente enviou:
 
 - a planilha `dados/base_teste.xlsx`, com 5 abas: `venda`, `pedido_compra`, `entradas_mercadoria`, `produtos_filial` e `fornecedor`;
 - o DDL das tabelas, em `sql/01_ddl_enunciado.sql`;
@@ -80,11 +84,12 @@ sql/04_validacao.sql                Parte 4
 
 ## Como entregar
 
-1. Logado no GitHub, clique em **Fork** (canto superior direito) e depois em **Create fork**. O fork é a sua cópia individual.
-2. No fork, preencha a tabela **Aluno** no topo deste README: clique em `README.md`, depois no lápis ✏️, e em **Commit changes**.
-3. Clone o fork (`git clone <link-do-seu-fork>`) e faça o trabalho nele, com **pelo menos 5 commits** ao longo das etapas.
-4. **Não coloque senha real** no `importar.py`: use variável de ambiente ou deixe um valor de exemplo.
-5. Para entregar, no fork clique em **Contribute → Open pull request**, preencha o modelo e clique em **Create pull request**. Cada novo `git push` atualiza o mesmo Pull Request até o prazo.
+1. **Um integrante do trio**, logado no GitHub, clica em **Fork** (canto superior direito) e depois em **Create fork**. O fork é a cópia da equipe; os outros dois integrantes **não** fazem fork.
+2. No fork, ele vai em **Settings → Collaborators → Add people** e adiciona os colegas pelo usuário do GitHub. Cada colega aceita o convite que chega por e-mail.
+3. No fork, preencham o **nome do time** e a tabela **Equipe** no topo deste README com os nomes dos 3 integrantes: clique em `README.md`, depois no lápis ✏️, e em **Commit changes**. Não apaguem a linha `| --- | --- | --- |` da tabela.
+4. Cada integrante clona o fork (`git clone <link-do-fork>`) e trabalha nele. **Cada integrante deve ter pelo menos 3 commits** ao longo das etapas.
+5. **Não coloque senha real** no `importar.py`: use variável de ambiente ou deixe um valor de exemplo.
+6. Para entregar, um integrante abre o fork e clica em **Contribute → Open pull request**, preenche o modelo e clica em **Create pull request**. Cada novo `git push` atualiza o mesmo Pull Request até o prazo.
+7. A apresentação é em **26/11/2026**, e vale o que estiver no Pull Request nessa data.
 
-⚠️ Não edite o repositório do professor, só o seu fork.
-
+⚠️ Não editem o repositório do professor, só o fork da equipe. Um Pull Request por equipe.
