@@ -6,11 +6,11 @@
 
 ## Equipe
 
-**Nome do time:** ____________________
+**Nome do time:** ________Antunes_______
 
 | Nome | Matrícula | Usuário do GitHub |
 | --- | --- | --- |
-|  |  |  |
+|João Victor Antunes da Silva| AntunesJoao|  |
 |  |  |  |
 |  |  |  |
 
